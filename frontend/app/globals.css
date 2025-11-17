@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #F5F7FA;
+  --primary: #0A1929;
+  --navy-dark: #0D1B2A;
+  --navy-light: #1B263B;
+  --accent: #1C8B3E;
+  --green-dark: #155D27;
+  --green-light: #2DB954;
+  --gold-accent: #D4AF37;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--primary);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
